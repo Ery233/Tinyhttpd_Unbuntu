@@ -6,7 +6,6 @@ Specialized in running on Liunx Tinyhttpd, because the original warehouse accpec
 ### Prepare 
 Running for Linux
 ```
- To compile for Linux:
   1) git clone this warehouse 
   2) apt install perl 
   3) make 
