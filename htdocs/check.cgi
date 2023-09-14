@@ -1,20 +1,22 @@
-#!/usr/local/bin/perl -Tw
-
+#!/usr/bin/perl
 use strict;
 use CGI;
 
-my($cgi) = new CGI;
+# 创建 CGI 对象
+my $cgi = CGI->new;
 
-print $cgi->header('text/html');
-print $cgi->start_html(-title => "Example CGI script",
-                       -BGCOLOR => 'red');
-print $cgi->h1("CGI Example");
-print $cgi->p, "This is an example of CGI\n";
-print $cgi->p, "Parameters given to this script:\n";
-print "<UL>\n";
-foreach my $param ($cgi->param)
-{
- print "<LI>", "$param ", $cgi->param($param), "\n";
+# 设置响应头
+print $cgi->header;
+
+# 从标准输入读取数据（来自 C 语言程序）
+my $input_data;
+while (<STDIN>) {
+    $input_data .= $_;
 }
-print "</UL>";
-print $cgi->end_html, "\n";
+
+# 处理输入数据（这里简单地将输入数据追加到响应中）
+print "Content-Type: text/plain\r\n\r\n";
+print "Received input data:\n";
+print $input_data;
+
+exit;
