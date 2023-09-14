@@ -1,8 +1,10 @@
 
 
 专门运行在Liunx(Unbuntu)上的Tinyhttpd，因原仓库accpect_request()函数的问题导致原仓库代码无法使用，本人稍加修改，并完善了一些逻辑，希望对大家有所帮助
+如果可以看到主页(index.html),但是输入颜色后无相应的话请尝试修改color.cgi脚本并坚持是否安装完整的cgi程序，这是可能是错误的主要原因。
 
 Specialized in running on Liunx Tinyhttpd, because the original warehouse accpect_request() function of the problem caused by the original warehouse code can not be used, I slightly modified, and improve some logic, I hope to help you!
+If you can see the homepage (index.html), but there is no corresponding color when you enter the color, please try to modify the color.cgi script and insist on installing the complete cgi program, which may be the main cause of the error.
 
 ### Prepare 
 Running for Linux
