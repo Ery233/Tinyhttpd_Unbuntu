@@ -6,6 +6,9 @@
 Specialized in running on Liunx Tinyhttpd, because the original warehouse accpect_request() function of the problem caused by the original warehouse code can not be used, I slightly modified, and improve some logic, I hope to help you!
 If you can see the homepage (index.html), but there is no corresponding color when you input the color, please try to modify the color.cgi script and check whether you have installed the complete cgi program, which may be the main reason for the error
 
+
+default port : 80
+
 ### Prepare 
 Running for Linux
 ```
@@ -13,6 +16,7 @@ Running for Linux
   2) apt install perl 
   3) make 
   4) ./httpd
+  5) Use your browser to navigate to IP:80
 ```
 
 
