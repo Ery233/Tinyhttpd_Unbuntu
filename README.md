@@ -1,8 +1,9 @@
-A mirror for tinyhttpd(Tinyhttpd非官方镜像,Fork自[sourceForge](https://sourceforge.net/projects/tiny-httpd/),仅供学习)
+
 
 专门运行在Liunx(Unbuntu)上的Tinyhttpd，因原仓库accpect_request()函数的问题导致原仓库代码无法使用，本人稍加修改，并完善了一些逻辑，希望对大家有所帮助
 
 Specialized in running on Liunx Tinyhttpd, because the original warehouse accpect_request() function of the problem caused by the original warehouse code can not be used, I slightly modified, and improve some logic, I hope to help you!
+
 ### Prepare 
 Running for Linux
 ```
