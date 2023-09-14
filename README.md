@@ -9,7 +9,7 @@ If you can see the homepage (index.html), but there is no corresponding color wh
 ### Prepare 
 Running for Linux
 ```
-  1) git clone this warehouse 
+  1) git clone the code 
   2) apt install perl 
   3) make 
   4) ./httpd
